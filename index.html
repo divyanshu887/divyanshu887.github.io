@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> CropMaladyDetector</title>
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<section id="banner">
+		<!-- <img src="logo.png" class="logo"> -->
+		<div class="website-name-tag">
+			<h1 class="website-name">CropDoc</h1>
+			<p class="tag">An AI Solution to Detect your Crop's Disease.</p>
+		</div>
+		
+		<div class="banner-text">
+			<h1>Crop Malady Detector </h1>
+			<p>Healthy Crops give Good Yeild</p>
+			<div class="banner-btn">
+				<a href="#"> <span> </span> Learn More &#187;</a>
+
+			</div>
+
+		</div>
+	</section>
+	<div id="menubtn">
+		<img src="menu.png" id="menu" onclick="openMenu()">
+
+	</div>
+	<div style="display:none" id="sidenav">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#contact">Contact us</a></li>
+				<li><a href="#">Testimonials</a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+	<!-- Diagnosis Section -->
+	<section class="diagnosis" id="diagnosis">
+		<div class="diagnosis-container">
+			<img src="magnify.png">
+			<h1 class="diagnosis-title">Diagnose your crop's disease now</h1>
+			<a class="diagnosis-btn" href="https://anonymous027.herokuapp.com/" target="_blank">Diagnose &#187;</a>
+		</div>
+	</section>
+
+	<!-- Features  -->
+	<section class="features" id="features">
+		<h1>Why CropDoc?</h1>
+		<div class="our-features">
+			<img src="moneysaving.png" class="features-icons">
+			<div class="feature-details">
+				<h3 class="feature-title">Save money</h3>
+				<p class="title-details">Eliminating the need of crop specialists, and thus, saving money.</p>
+			</div>
+		</div>
+		<div class="our-features">
+			<img src="clock.png" class="features-icons">
+			<div class="feature-details">
+				<h3 class="feature-title">Time saving</h3>
+				<p class="title-details">Reliable results at much lesser time.</p>
+			</div>
+		</div>
+	</section>
+
+	
+
+	<!-- Contact Section -->
+	<section class="contact-section" id="contact">
+		<div class="heading">
+			<h3>Contact us</h3>
+		</div>
+
+		<div class="contact-parameters">
+			<div class="parameters">
+				<div class="param-alignment">
+					<img src="location.png" class="logos">
+					<div class="info">
+						<h3 class="address-title">Location:</h3>
+						<p class="address">IIT(ISM) Dhanbad</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="parameters">
+				<div class="param-alignment">
+					<img src="mail.png" class="logos">
+					<div class="info">
+						<h3 class="address-title">Email:</h3>
+						<p class="address">info@gmail.com</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="parameters">
+				<div class="param-alignment">
+					<img src="phone.png" class="logos">
+					<div class="info">
+						<h3 class="address-title">Call us:</h3>
+						<p class="address">+91 3535 522 532</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		function openMenu() {
+			var menuList = document.getElementById("sidenav");
+			if (menuList.style.display == "none") {
+				menuList.style.display = "block";
+				menuList.style.transition = "width 3s";
+			}
+			else {
+				menuList.style.display = "none";
+				menuList.style.transition = "width 3s";
+			}
+		}
+	</script>
+
+
+
+
+</body>
+</html>
