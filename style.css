@@ -1,0 +1,300 @@
+/* GOOGLE Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+#banner{
+	background: url('farm1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh; 
+}
+
+.website-name-tag {
+	font-family: 'Poppins', sans-serif;
+	padding: 15px 0px 0px 50px;
+}
+
+.website-name {
+	font-size: xx-large;
+	font-weight: 700;
+}
+
+.tag {
+	font-size: small;
+	font-weight: 300;
+}
+
+.banner-text{
+	text-align: center;
+	color:  rgb(0, 0, 0);
+	padding-top: 180px;
+}
+.banner-text h1{
+	font-size: 75px;
+}
+.banner-text p{
+	font-size:35px;
+	font-style: italic;
+	color: white;
+}
+.banner-btn{
+	margin: 70px auto 0;
+
+}
+.banner-btn a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: white;
+	border: .5px solid #fff;
+	position: relative;
+	z-index: 1;
+    transition: color black;
+
+}
+	
+.banner-btn a span {
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index:-1;
+	transition: 0.5s;
+}
+.banner-btn a:hover span {
+	width: 100%
+
+}
+.banner-btn a:hover  {
+	color: black;
+
+}
+#sidenav{
+	width: 150px;
+	position: fixed;
+	float: right;
+	top: 0;
+	right: 0;
+	align-items: center;
+	background: rgba(139, 252, 63, 0.3);
+	z-index: 2;
+}
+
+nav ul li {
+	list-style: none;
+	margin:50px 20px;
+}
+
+nav ul li:first-child {
+	margin-top: 90px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: black;
+}
+#menubtn{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	right: 30px;
+	top: 20px;
+	border-radius: 3px;
+	z-index: 3;
+}
+#menubtn:hover {
+	background: green;
+	cursor: pointer;
+	transition: 0.7s;
+}
+#menubtn img {
+	width: 20px;
+	margin-top: 15px;
+	
+}
+
+/* Diagnosis Section */
+.diagnosis {
+	display: flex;
+	width: 100%;
+	margin: 70px 0px;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(242, 255, 243);
+}
+
+.diagnosis-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.diagnosis-container img {
+	width: 200px;
+	height: 200px;
+	padding: 50px 0px;
+}
+
+.diagnosis-title {
+	font-size: xx-large;
+	font-weight: 700;
+	color: rgb(0, 65, 14);
+}
+
+.diagnosis-btn {
+	margin: 70px 0px;
+	padding: 7px 30px;
+	font-size: x-large;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid green;
+	color: black;
+}
+
+.diagnosis-btn:hover {
+	background: green;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+/* Features section */
+.features {
+	display: flex;
+	width: 100%;
+	padding: 70px 0px;
+	margin-top: 70px;
+	flex-direction: column;
+	background-color: rgb(242, 255, 243);
+	align-items: center;
+}
+
+.features h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: 700;
+	color: rgb(0, 65, 14);
+}
+
+.our-features {
+	width: 95%;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.features-icons {
+	width: 50px;
+	height: 50px;
+	margin-left: 65px;
+}
+
+.feature-details {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+}
+
+.feature-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: large;
+	font-weight: 500;
+}
+
+.title-details {
+	font-family: 'Poppins', sans-serif;
+	font-size: medium;
+	font-weight: 300;
+}
+
+
+   
+/* Contact Section */
+.contact-section {
+	margin-top: 70px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	background-color: rgb(242, 255, 243);
+}
+
+.heading {
+	width: 30%;
+	margin: 30px auto;
+}
+
+.heading h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(0, 65, 14);
+}
+
+.contact-parameters {
+	display: flex;
+	margin: 10px 100px;
+	flex-direction: column;
+}
+
+.parameters {
+	display: flex;
+	flex-direction: row;
+	margin: 30px 0px;
+	align-items: center;
+}
+
+.param-alignment {
+	display: flex;
+	flex-direction: row;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.logos {
+	width: 50px;
+	height: 50px;
+	opacity: 0.9;
+}
+
+.logos:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.address-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: large;
+	font-weight: 500;
+	color: rgb(0, 65, 14);
+}
+
+.address {
+	font-family: 'Poppins', sans-serif;
+	font-size: medium;
+	color: rgb(0, 65, 14);
+	opacity: 0.7;
+}
